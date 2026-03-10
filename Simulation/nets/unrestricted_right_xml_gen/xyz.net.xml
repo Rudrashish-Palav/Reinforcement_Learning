@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-03-04 14:06:08 by Eclipse SUMO netconvert Version 1.24.0
+<!-- generated on 2026-02-25 13:40:32 by Eclipse SUMO netconvert Version 1.24.0
 <netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -53,16 +53,16 @@
         <lane id="westJunction_0" index="0" speed="55.55" length="492.80" shape="0.00,498.40 492.80,498.40">
             <param key="frictionCoefficient" value="1.0"/>
         </lane>
-        <lane id="westJunction_1" index="1" speed="55.55" length="492.80" shape="0.00,501.60 492.80,501.60">
+        <lane id="westJunction_1" index="1" speed="55.55" length="492.80" shape="0.00,501.60 492.80,501.60" changeRight="emergency">
             <param key="frictionCoefficient" value="1.0"/>
         </lane>
     </edge>
 
     <tlLogic id="traffic_light" type="static" programID="0" offset="0">
+        <phase duration="3"  state="gyyy"/>
         <phase duration="27" state="grgg"/>
         <phase duration="3"  state="gyyy"/>
         <phase duration="27" state="ggrr"/>
-        <phase duration="3"  state="gyyy"/>
     </tlLogic>
 
     <junction id="east" type="dead_end" x="1000.00" y="500.00" incLanes="junctionEast_0 junctionEast_1" intLanes="" shape="1000.00,496.80 1000.00,503.20"/>

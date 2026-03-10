@@ -4,7 +4,7 @@
         <lane index="0">
             <param key="frictionCoefficient" value="1.0"/>
         </lane>
-        <lane index="1" changeRight="emergency">
+        <lane index="1">
             <param key="frictionCoefficient" value="1.0"/>
         </lane>
     </edge>

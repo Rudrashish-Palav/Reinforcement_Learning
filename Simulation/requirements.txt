@@ -5,3 +5,5 @@ matplotlib
 seaborn
 libsumo
 traci 
+sumo-rl
+gymnasium
